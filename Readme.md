@@ -1,6 +1,6 @@
 # Pico TTS
 
-Text to speech voice sinthesizer from SVox, included in Android AOSP.
+Text to speech voice synthesizer from SVox, included in Android AOSP.
 
 ## Build and install in Linux
 
@@ -32,7 +32,7 @@ make install
 ## Usage
 
 ```
-pico2wave -l LANG -w OUT_WAV_FILE "text you want to sinthesize"
+pico2wave -l LANG -w OUT_WAV_FILE "text you want to synthesize"
 aplay OUT_WAV_FILE
 rm OUT_WAV_FILE
 ```
